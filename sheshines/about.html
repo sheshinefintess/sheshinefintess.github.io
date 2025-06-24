@@ -2,8 +2,8 @@
 <html lang="zxx">
 
 <head>
-    <title>Contact | SHE SHINES – Women’s Health & Fitness Center</title>
-     <meta name="description" content="Join SHE SHINES – Health & Fitness Center for women and enjoy Zumba, Yoga, and Aerobics classes designed to boost your fitness, flexibility, and overall well-being in a supportive and empowering environment." />
+    <title>About | SHE SHINES – Women’s Health & Fitness Center</title>
+    <meta name="description" content="Join SHE SHINES – Health & Fitness Center for women and enjoy Zumba, Yoga, and Aerobics classes designed to boost your fitness, flexibility, and overall well-being in a supportive and empowering environment." />
     <meta name="keywords" content="Zumba classes for women, yoga for women, aerobics classes, women's fitness center, female Zumba workouts, women's yoga sessions, aerobic fitness for women, women-only gym, women's health and fitness, dance fitness, flexibility training, cardio workouts for women" />
 
     <!-- /SEO Ultimate -->
@@ -46,6 +46,7 @@
        document.onmousedown = mousehandler;
        document.onmouseup = mousehandler;
        </script>
+
 </head>
 
 <body>
@@ -65,7 +66,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
                           
@@ -93,10 +94,9 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                        
-                            <li class="nav-item active">
+                                <a class="nav-link" href="">Blogs</a>
+                            
+                            <li class="nav-item">
                                 <a class="nav-link contact_us" href="contact.html">Contact Us</a>
                             </li>
                         </ul>
@@ -111,10 +111,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="banner-section-content">
-                        <h1 data-aos="fade-up">Contact Us</h1>
-                        <p data-aos="fade-right">We’d love to hear from you! Whether you have questions, want to join a class, or just need more info — reach out today.</p>
+                        <h1 data-aos="fade-up">About Us</h1>
+                        <p data-aos="fade-right">Women’s Health & Fitness Centre is more than just a gym — it’s a wellness destination created exclusively for women.</p>
                         <div class="btn_wrapper">
-                            <span class="sub_home_span">Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span"> Contact</span>
+                            <span class="sub_home_span">Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span"> About</span>
                         </div>
                     </div>
                 </div>
@@ -134,113 +134,45 @@
         </div>
     </section>
 </div>
-<!-- MESSAGE SECTION -->
-<section class="message_section">
+<!-- ABOUT US SECTION -->
+<section class="aboutpage_aboutus_section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" data-aos="fade-up">
-                <div class="message_content">
-                    <h5>Get in Touch.</h5>
-                    <h2>Send us a Message</h2>
-                    <p>SHE SHINES – Women’s Health & Fitness Centre</p>
-                    <form id="submit-form" method="" action="">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group mb-0">    
-                                <input type="text" name="firstname" id="fname" class="form-control" placeholder="First Name" required > 
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group mb-0">
-                                <input type="text" name="lastname" id="lname" class="form-control form_style" placeholder="Last Name" required >
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group mb-0">    
-                                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" required > 
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group mb-0">    
-                                <input type="email" name="email" id="email" class="form-control form_style" placeholder="Email"  required > 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class=" form-group mb-0">    
-                                <textarea rows="3" name="msg" id="comment" class="form-control" placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn_wrapper">
-                            <button type="submit" name="get_started" id="started">Get Started</button>
-                        </div>
-                    </form>
+            <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <div class="aboutpage_aboutus_image">
+                    <figure class="mb-0"><img src="./assets/images/about_page_aboutus_image.png" alt="" class="img-fluid"></figure>
                 </div>
+                <figure class="aboutus_top_shape left_shape mb-0">
+                    <img src="./assets/images/aboutus_top_shape.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="aboutus_bottom_shape left_shape mb-0">
+                    <img src="./assets/images/aboutus_bottom_shape.png" alt="" class="img-fluid">
+                </figure>
             </div>
-
-             <script>
-                            $("#submit-form").submit((e)=>{
-                            e.preventDefault()
-                            $.ajax({
-                            url:"https://script.google.com/macros/s/AKfycbyL4QCPUehtayBkdgP0HVMkG-N_mFhq-pzlxR1lcbmAmUssctTBNxRoOIFgStcY8YkAMw/exec",
-                            data:$("#submit-form").serialize(),
-                            method:"post",
-                            success:function (response){
-                            alert("Thank you for confirming your appointment!. We look forward to seeing you. Thank you!")
-                            window.location.reload()
-                            //window.location.href="https://google.com"
-                            },
-                            error:function (err){
-                            alert("Something Error")
-                            
-                            }
-                            })
-                            })
-                            </script>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="fade-right">
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="box box_padding">
-                            <div class="box_image_content">
-                                <figure class="mb-0">
-                                    <img src="./assets/images/contact_location.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="box_wrapper">
-                                <h3>Location</h3>
-                                <p class="mb-0">Thachakulam, Pattazhy, Kerala 691522, India</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12" data-aos="fade-right">
+                <div class="aboutpage_aboutus_content">
+                    <h5>About us</h5>
+                    <h2>SHE SHINES – Women’s Health & Fitness Centre</h2>
+                    <p>SHE SHINES – Women’s Health & Fitness Centre is more than just a gym — it’s a wellness destination created exclusively for women. </p>
+                    <p class="margin_bottom">including Zumba, Yoga, Aerobics, Cardio & Resistance Training, Diet Support, and Personal Coaching.r.</p>
+                    <div class="box_wrapper">
                         <div class="box">
-                            <div class="box_image_content">
-                                <figure class="mb-0">
-                                    <img src="./assets/images/contact_phone.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="box_wrapper">
-                                <h3>Phone</h3>
-                                <p><a href="tel:+919495884011" class="text-decoration-none">(+91 94 95 88 4011)</a></p>
-                                <p class="mb-0"><a href="tel:+919495884011" class="text-decoration-none">(+91 94 95 88 4011)</a></p>
-                            </div>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            <span>Live classes twice a week</span>
+                        </div>
+                        <div class="box mr-0">
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            <span>Personal care on phone</span>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="box mb-0">
-                            <div class="box_image_content">
-                                <figure class="mb-0">
-                                    <img src="./assets/images/contact_mail.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="box_wrapper">
-                                <h3>Email</h3>
-                                <p><a href="mailto:info@yogastic.com" class="text-decoration-none">Info@sheshinefitness.com</a></p>
-                                <p class="mb-0"><a href="mailto:Info@sheshinefitness.com" class="text-decoration-none">Info@sheshinefitness.com</a></p>
-                            </div>
+                    <div class="box_wrapper">
+                        <div class="box">
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            <span>24 hours chat support</span>
+                        </div>
+                        <div class="box mr-0">
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            <span>Free e-books for clients</span>
                         </div>
                     </div>
                 </div>
@@ -248,16 +180,173 @@
         </div>
     </div>
 </section>
-<!-- CONTACT MAP SECTION -->
-<div class="contact_map_section">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.24074998942666!2d76.7990842896058!3d9.077244596433351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b060d67c3e43103%3A0xec00d6beb9ccdd10!2sThachakulam%20junction!5e0!3m2!1sen!2sae!4v1750783797173!5m2!1sen!2sae" width="1920" height="728" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- DISCOUNT SECTION -->
+<section class="discount_section">
+    <div class="container">
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="discount_content">
+                    <h2>Get <span>05%</span> Discount For All Yoga Classes</h2>
+                    <p></p>
+                    <div class="btn_wrapper">
+                        <a href="./services.html" class="text-decoration-none get_started">Get Started</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
+<!-- OUR MISSION SECTION -->
+<section class="mission_section">
+    <div class="container">
+        <div class="mission_box">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up">
+                    <div class="mission_content">
+                        <h5>SHE SHINES</h5>
+                        <h2>Our Mission</h2>
+                        <p>To empower women of all ages and fitness levels to live healthier, stronger, and more confident lives through expert-led fitness programs, personalized care, and a supportive community.</p>
+                        <div class="btn_wrapper">
+                            <a href="./pricing.html" class="text-decoration-none read_more_btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="mission_image">
+                        <figure class="mb-0"><img src="./assets/images/our_mission_image.png" alt="" class="img-fluid"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="mission_right_shape right_shape mb-0">
+            <img src="./assets/images/our_mission_shape.png" alt="" class="img-fluid">
+        </figure>
+    </div>
+</section>
+<!-- OUR VISION SECTION -->
+<section class="vision_section">
+    <div class="container">
+        <div class="vision_box">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="vision_image">
+                        <figure class="mb-0"><img src="./assets/images/our_vision_image.png" alt="" class="img-fluid"></figure>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up">
+                    <div class="vision_content">
+                        <h5>SHE SHINES</h5>
+                        <h2>Our Vision</h2>
+                        <p>To become the leading women-focused fitness centre in the region, inspiring positive lifestyle changes and building a space where every woman feels motivated, welcomed, and celebrated.</p>
+                        <div class="btn_wrapper">
+                            <a href="./pricing.html" class="text-decoration-none read_more_btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure class="vision_left_shape left_shape mb-0">
+            <img src="./assets/images/our_vision_shape.png" alt="" class="img-fluid">
+        </figure>
+    </div>
+</section>
+<!-- ACHIEVEMENTS SECTION -->
+<section class="achievement_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="achievement_content">
+                    <h5>Achievements</h5>
+                    <h2>Our Honorable Awards</h2>
+                    <p>We are proud to be recognized for our commitment to women's health, fitness, and empowerment.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="logo_wrapper craft">
+                    <figure class="mb-0"><img src="./assets/images/achievement_1.png" alt="" class="img-fluid"></figure>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="logo_wrapper">
+                    <figure class="mb-0"><img src="./assets/images/achievement_2.png" alt="" class="img-fluid"></figure>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="logo_wrapper q-power">
+                    <figure class="mb-0"><img src="./assets/images/achievement_3.png" alt="" class="img-fluid"></figure>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="logo_wrapper logo">
+                    <figure class="mb-0"><img src="./assets/images/achievement_4.png" alt="" class="img-fluid"></figure>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="logo_wrapper minimum">
+                    <figure class="mb-0"><img src="./assets/images/achievement_5.png" alt="" class="img-fluid"></figure>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="logo_wrapper logoipsum">
+                    <figure class="mb-0"><img src="./assets/images/achievement_6.png" alt="" class="img-fluid"></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BLOG POSTS SECTION -->
+<section class="blog_posts_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="blog_posts_content">
+                    <h5>Blog Posts</h5>
+                    <h2>Our News Feed</h2>
+                    <p>Stay inspired, stay informed! Explore fitness tips, transformation stories, health news, and all the latest from SHE SHINES.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="blog_posts_image position-relative">
+                    <figure class="mb-0"><img src="./assets/images/blog_posts_1.png" alt="" class="img-fluid"></figure>
+                    <div class="blog_posts_image_content">
+                        <span>Power of Zumba</span>
+                        <h4>workout can help burn calories, reduce stress, and uplift your spirit.</h4>
+                        <div class="icon_wrapper">
+                            <a href="./single-post.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="blog_posts_image position-relative">
+                    <figure class="mb-0"><img src="./assets/images/blog_posts_2.png" alt="" class="img-fluid"></figure>
+                    <div class="blog_posts_image_content">
+                        <span>Resistance Training</span>
+                        <h4>Learn why strength training is essential for women — at every age.h</h4>
+                        <div class="icon_wrapper">
+                            <a href="./single-post.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn_wrapper">
+            <a href="./single-post.html" class="text-decoration-none view_blog">View All Blogs</a>
+        </div>
+        <figure class="blog_posts_left_shape left_shape mb-0">
+            <img src="./assets/images/blog_posts_left_shape.png" alt="" class="img-fluid">
+        </figure>
+        <figure class="blog_posts_right_shape right_shape mb-0">
+            <img src="./assets/images/blog_posts_right_shape.png" alt="" class="img-fluid">
+        </figure>
+    </div>
+</section>
 <!-- SUBSCRIBE SECTION -->
-<section class="subscribe_section contact_subscribe_section">
+<section class="subscribe_section">
     <div class="container">
         <div class="subscribe_background_image">
             <div class="row">
@@ -265,7 +354,7 @@
                     <div class="subscribe_content">
                         <h5>Subscribe now</h5>
                         <h2>Get the Latest Updates With Our Newletter</h2>
-                        <form method=""id="submit-form" >
+                        <form method="">
                             <div class="form-row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <input type="email" name="email" id="emailadd" class="form-control" placeholder="Enter You Email">
@@ -299,7 +388,7 @@
                         <h4>About Us</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <p>She Shines is a dedicated ladies-only fitness centre offering a safe, supportive, and energizing environment for women of all ages.</p>
+                               <p>She Shines is a dedicated ladies-only fitness centre offering a safe, supportive, and energizing environment for women of all ages.</p>
                             </li>
                             <li class="icons"><a href="https://wa.me/919495224011" target="_blank" ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></li>
                             <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -313,7 +402,7 @@
                         <h4>Quick Links</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
                                 <a href="about.html">About Us</a>
@@ -336,15 +425,15 @@
                         <ul class="list-unstyled">
                             <li class="contact_icons">
                                 <i class="fa-solid fa-phone"></i>
-                                <a href="tel:+919495884011" class="text-decoration-none">+91 94 95 88 4011</a>
+                               <a href="tel:+919495884011" class="text-decoration-none">+91 94 95 88 4011</a> 
                             </li>
                             <li class="contact_icons">
                                 <i class="fa-sharp fa-solid fa-envelope"></i>
-                                <a href="mailto:Info@sheshinefitness.com" class="text-decoration-none">Info@sheshinefitness.com</a>
+                                 <a href="mailto:Info@sheshinefitness.com" class="text-decoration-none">Info@sheshinefitness.com</a>
                             </li>
                             <li class="mb-0">
                                 <i class="fa-solid fa-location-dot location"></i>
-                                <span>Thachakulam, Pattazhy, Kerala 691522, India</span>
+                                  <span>Thachakulam, Pattazhy, Kerala 691522, India</span>
                             </li>
                         </ul>
                     </div>
@@ -354,9 +443,10 @@
     </div>
     <div class="bottom-portion">
         <div class="copyright col-xl-12"> 
-            <p>Copyright 2025, She Shine Fitness All Rights Reserved.</p>
+             <p>Copyright 2025, She Shine Fitness All Rights Reserved.</p>
         </div>
     </div>
+
 
      <a href="https://wa.me/919495224011" target="_blank" style="position: fixed; bottom:10px; right:30px; z-index:10000;"><img class="img-responsive" src="web/wa.png" alt="" width="50"></a>
 
