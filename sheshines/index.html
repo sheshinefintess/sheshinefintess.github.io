@@ -352,7 +352,7 @@
                 <div class="get_in_touch_content">
                     <h5>Get in touch</h5>
                     <h2>Get a Free Consultation Now</h2>
-                    <form>
+                     <form id="submit-form">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group mb-0">    
@@ -388,6 +388,28 @@
                     </form>
                 </div>
             </div>
+
+              <script>
+                            $("#submit-form").submit((e)=>{
+                            e.preventDefault()
+                            $.ajax({
+                            url:"https://script.google.com/macros/s/AKfycbyL4QCPUehtayBkdgP0HVMkG-N_mFhq-pzlxR1lcbmAmUssctTBNxRoOIFgStcY8YkAMw/exec",
+                            data:$("#submit-form").serialize(),
+                            method:"post",
+                            success:function (response){
+                            alert("Thank you for confirming your appointment!. We look forward to seeing you. Thank you!")
+                            window.location.reload()
+                            //window.location.href="https://google.com"
+                            },
+                            error:function (err){
+                            alert("Something Error")
+                            
+                            }
+                            })
+                            })
+                            </script>
+
+
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 d-md-block d-none"></div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <div class="get_in_touch_video position-relative">
